@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/05_stl_lambda.dir/examples/05_stl_lambda.cpp.o -o 05_stl_lambda 

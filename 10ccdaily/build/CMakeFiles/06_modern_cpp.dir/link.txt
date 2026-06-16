@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/06_modern_cpp.dir/examples/06_modern_cpp.cpp.o -o 06_modern_cpp 
