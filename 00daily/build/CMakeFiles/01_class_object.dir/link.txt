@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/01_class_object.dir/examples/01_class_object.cpp.o -o 01_class_object 

@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/03_inheritance_polymorphism.dir/examples/03_inheritance_polymorphism.cpp.o -o 03_inheritance_polymorphism 

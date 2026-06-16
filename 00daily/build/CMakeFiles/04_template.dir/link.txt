@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/04_template.dir/examples/04_template.cpp.o -o 04_template 
