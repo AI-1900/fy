@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2026-06-16T00:00:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="cpp-core-features" name="C++ Core Features">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="C++ 核心特性最小可运行仓库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="680" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="repo" value="Linux Repo&lt;br&gt;CMake + examples + scripts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="280" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="class" value="01 class/object&lt;br&gt;构造 / 析构 / 成员函数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="raii" value="02 RAII&lt;br&gt;unique_ptr 自动释放资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="poly" value="03 polymorphism&lt;br&gt;base + virtual + override" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="template" value="04 template&lt;br&gt;泛型 / if constexpr / static_assert" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="860" y="280" width="240" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="stl" value="05 STL + lambda&lt;br&gt;vector / sort / accumulate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="1140" y="280" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="modern" value="06 modern C++&lt;br&gt;constexpr / optional / string_view" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="260" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="move" value="07 move semantics&lt;br&gt;copy / move / std::move" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="570" y="460" width="260" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="all" value="08 all_in_one&lt;br&gt;vector&lt;unique_ptr&lt;Layer&gt;&gt;&lt;br&gt;Scale + Bias pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="890" y="450" width="300" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="cuda" value="后续迁移&lt;br&gt;CUDA C++ / CUTLASS / DeepGEMM&lt;br&gt;模板 + RAII + 编译期 shape" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="660" width="440" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="repo" target="class" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="repo" target="raii" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="repo" target="poly" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="repo" target="template" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="repo" target="stl" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="poly" target="all" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="stl" target="all" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="modern" target="cuda" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="move" target="cuda" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="all" target="cuda" style="endArrow=block;html=1;rounded=0;strokeWidth=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

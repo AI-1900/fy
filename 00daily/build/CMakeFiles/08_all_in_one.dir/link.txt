@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/08_all_in_one.dir/src/main.cpp.o -o 08_all_in_one 
